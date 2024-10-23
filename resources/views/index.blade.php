@@ -1,42 +1,53 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua&display=swap" rel="stylesheet" />
-        <link href="./css/main.css" rel="stylesheet" />
-        <title>Document</title>
-    </head>
-    <body>
-        <div class="v1_42">
-            <div class="v1_37">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bits - Wear. Clean. Repeat.</title>
+    @vite('resources/css/app.css')
+</head>
+<body class="bg-white font-sans">
+    <!-- Header -->
+    <header class="flex justify-between items-center px-8 py-4">
+        <div class="text-4xl font-bold">BITS</div>
+        <nav class="space-x-8 text-lg">
+            <a href="#" class="hover:text-gray-600">NEW</a>
+            <a href="#" class="hover:text-gray-600">CATEGORY</a>
+            <a href="#" class="hover:text-gray-600">ABOUT</a>
+        </nav>
+        <div>
+            <input type="text" placeholder="Search" class="border rounded-lg px-4 py-2" />
+        </div>
+    </header>
 
+    <!-- Main Section -->
+    <section class="flex items-center justify-between px-8 py-16">
+        <div class="w-1/2">
+            <h1 class="text-6xl font-bold leading-tight">WEAR. CLEAN. REPEAT.</h1>
+            <p class="mt-4 text-2xl">Discover your perfect fit.</p>
+        </div>
+        <div class="w-1/2">
+            <img src="images/v1_37.png" alt="Sweater" class="object-cover rounded-xl" />
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="px-8 py-8">
+        <h2 class="text-xl font-bold mb-4">Discover more our Product</h2>
+        <div class="flex space-x-6">
+            <!-- Product 1 -->
+            <div class="w-1/3">
+                <img src="images/v1_77.png" alt="Product 1" class="rounded-xl" />
             </div>
-            <span class="v1_43">WEAR. CLEAN. REPEAT.
-
-            </span>
-            <span class="v1_44">Discover your perfect fit.
-
-            </span>
-            <span class="v8_14">BITS</span>
-            <span class="v1_73">Discover more our Product</span>
-            <span class="v1_48">CATEGORY</span><span class="v1_50">NEW</span>
-            <span class="v1_51">ABOUT</span>
-            <div class="v1_67"><div class="v1_68">
-                <div class="v1_69">
-                    
-                </div><div class="v1_70"></div>
-                <div class="v1_71">
-
-                </div></div></div><div class="v1_74">
-
-                </div><div class="v1_75"></div><div class="v1_76">
-
-                </div><div class="v1_77"></div><div class="v1_78">
-
-                </div><div class="v1_82"></div><div class="v18_5">
-                    <div class="v1_83"></div><div class="v1_94">
-                
-                    </div>
-                </div>
+            <!-- Product 2 -->
+            <div class="w-1/3">
+                <img src="images/v1_78.png" alt="Product 2" class="rounded-xl" />
             </div>
-        </body>
-        </html>
+            <!-- Product 3 -->
+            <div class="w-1/3">
+                <img src="images/v1_82.png" alt="Product 3" class="rounded-xl" />
+            </div>
+        </div>
+    </section>
+</body>
+</html>
