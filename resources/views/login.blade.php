@@ -44,6 +44,16 @@
                     class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
                 />
             </div>
+            
+            <div>
+            <button 
+                    type="submit" 
+                    class="w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600 focus:outline-none"
+                >
+                <a href="{{ route('index') }}" class="text-3xl text-center">Sign In</a>
+                </button>
+            
+            </div>
 
             <!-- Submit Button -->
             <div>

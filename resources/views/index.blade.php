@@ -13,7 +13,8 @@
         <nav class="space-x-8 text-lg">
             <a href="#" class="hover:text-gray-600">NEW</a>
             <a href="#" class="hover:text-gray-600">CATEGORY</a>
-            <a href="#" class="hover:text-gray-600">ABOUT</a>
+            <a href="{{ route('about') }}"  class="hover:text-gray-600">ABOUT</a>
+            <a href="{{ route('login') }}" class="hover:text-gray-600">LOGIN</a>
         </nav>
         <div>
             <input type="text" placeholder="Search" class="border rounded-lg px-4 py-2" />
@@ -25,6 +26,7 @@
         <div class="w-1/2">
             <h1 class="text-6xl font-bold leading-tight">WEAR. CLEAN. REPEAT.</h1>
             <p class="mt-4 text-2xl">Discover your perfect fit.</p>
+            
         </div>
         <div class="w-1/2">
             <img src="images/v1_37.png" alt="Sweater" class="object-cover rounded-xl" />

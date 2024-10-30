@@ -9,6 +9,7 @@
     <header>
         <div class="bg-blue-400 pt-10 pb-10">
             <div class= "text-3xl text-center">About Me</div>
+            <a href="{{ route('index') }}" class="text-3xl text-center">Home</a>
         </div>
     </header>
 </body>
