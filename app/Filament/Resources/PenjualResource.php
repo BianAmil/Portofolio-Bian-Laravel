@@ -36,9 +36,9 @@ class PenjualResource extends Resource
     {
         return $table
             ->columns([
-                Forms\Components\TextInput::make('name'),
-                Forms\Components\TextInput::make('jenis'),
-                Forms\Components\TextInput::make('barang_id')
+                Tables\Columns\TextColumn::make('name'),
+                Tables\Columns\TextColumn::make('jenis'),
+                Tables\Columns\TextColumn::make('barang_id')
             ])
             ->filters([
                 //
